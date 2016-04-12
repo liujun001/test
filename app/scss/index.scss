@@ -1,0 +1,14 @@
+@mixin foo {
+  color:red
+}
+p{
+  @include foo;
+}
+
+h1{
+  @extend p;
+}
+
+.foo{
+  height: 1px;
+}
