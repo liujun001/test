@@ -6,6 +6,8 @@ npm i
 ### fe-css
 进入fe-css,执行`gulp`,自动进入浏览器，即可自动编译合并sass文件，目录结构可能还需要调整，不过这不是重点。
 其中postcss的插件很强大，这里仅仅引用了autoprefixer。
+#### 目录结构
+`src`内的scss文件编译到`dist/build`里，然后合并到`dist/index.css`内。这样差不多可以了。
 
 ### fe-react
 简单的用来测试的。执行`node server.js`
