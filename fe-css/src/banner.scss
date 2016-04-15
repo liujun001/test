@@ -1,0 +1,9 @@
+$banner-bottom:red;
+
+@mixin name {
+  background: $banner-bottom;
+}
+
+.name{
+  @include name;
+}
